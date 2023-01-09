@@ -51,7 +51,7 @@ class App {
                     if (this.gamers[key].room == Array.from(socket.rooms)[1]) {
                         first = this.gamers[key];
                     } else {
-                        break;
+                        continue;
                     }
                 }
                 if (first != undefined) {
